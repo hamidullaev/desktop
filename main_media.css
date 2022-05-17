@@ -1,0 +1,143 @@
+
+/* For Planshet */
+
+@media screen and (max-width:990px) {
+    .gallery_item{
+        width: 50%;
+    }
+    .cards{
+        height: 700px;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 45%;
+        flex-wrap: wrap;
+    }
+    .fa-location-dot{
+        margin-left: 45px;
+    }
+    .fa-phone{
+        margin-left: 39px;
+    }
+    .fa-fax{
+        margin-left: 54px;
+    }
+    .fa-message{
+        margin-left: 57px;
+    }
+    .contacts{
+        height: 900px;
+        display: block;
+    }
+    .contact_title{
+        width: 90%;
+        margin: auto;
+    }
+    .contact_input{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+/* For Mobile */
+@media screen and (max-width:600px) {
+   nav{
+       padding: 0 20px;
+   }   
+   .menu_icon{
+       display: block;
+   }
+   .nav_collection{
+       position: fixed;
+       top: 0;
+       left: -100%;
+       width: 70%;
+       height: 100vh;
+       background-color: #7a039b;
+       flex-direction: column;
+       padding-top: 60px;
+       transition: 1s;
+    }
+    .show {
+        left: 0;
+    }
+    .nav_item{
+        margin-bottom: 20px;
+    }
+    .title_pc{
+        display: none;
+    }
+    .title_mb{
+        display: block;
+        color: #fff;
+        font-size: 40px;
+    }
+    .banner{
+        background: url("./image/14.jpg") no-repeat center/cover;
+        background-attachment: fixed;
+    }
+    .gallery_item{
+        width: 100%;
+    }
+    .cards{
+        height: 1400px;
+        display: block;
+    }
+    .fa-location-dot{
+        margin-left: 33px;
+    }
+    .fa-phone{
+        margin-left: 32px;
+    }
+    .fa-fax{
+        margin-left: 34px;
+    }
+    .fa-message{
+        margin-left: 37px;
+    }
+    .card{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .contacts{
+        display: block;
+        height: 900px;
+    }
+    .contact_title{
+        width: 90%;
+        margin: auto;
+    }
+    .contact_input{
+        width: 90%;
+        margin: auto;
+    }
+    .footer{
+        height: 1600px;
+        display: block;
+    }
+    .footer1{
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

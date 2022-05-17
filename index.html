@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main_media.css">
+</head>
+<body>
+    <nav>
+        <h1 class="logo">Brand</h1>
+        <ul class="nav_collection">
+            <li class="nav_item"><a href="">Home</a></li>
+            <li class="nav_item"><a href="">About</a></li>
+            <li class="nav_item"><a href="">Blog</a></li>
+            <li class="nav_item"><a href="">Contact</a></li>
+        </ul>
+        <div onclick="addShow()" class="menu_icon">
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+    </nav>
+
+
+    <div class="banner">
+        <h1 class="title_pc">For desktop</h1>
+        <h1 class="title_mb">For Mobile</h1>
+    </div>
+
+
+    <h1 class="gallery_title">Gallery</h1>
+
+    <div class="gallery">
+        <div class="gallery_item">
+            <img src="./image/Мост.jpg" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./image/14.jpg" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./image/Мост.jpg" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./image/14.jpg" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./image/Мост.jpg" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./image/14.jpg" alt="">
+        </div>
+    </div>
+
+
+
+    <div class="cards">
+        <div class="card">
+            <i class="fa-solid fa-location-dot"></i>
+            <h2 class="card_h2">OUR MAIN OFFICE</h2>
+            <p class="card_p"">SoHo 94 Broadway St New <br> York, NY 1001</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-phone"></i>
+            <h2 class="card_h2">PHONE NUMBER</h2>
+            <p class="card_p"">234-9876-5400 <br>888-0123-4567 (Toll Free) </p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-fax"></i>
+            <h2 class="card_h2">FAX</h2>
+            <p class="card_p"">1-243-567-8900  </p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-message"></i>
+            <h2 class="card_h2">EMAIL</h2>
+            <p class="card_p">hello@theme.com</p>
+        </div>
+    </div>
+
+    <div class="contacts">
+        <div class="contact_title">
+            <h1 class="contact_h1" >Contact info</h1>
+            <p class="contact_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio eveniet, id dolor quam mollitia nobis. Accusantium neque asperiores eligendi quia inventore ea, deserunt, possimus, quibusdam quidem quisquam minus expedita fuga?</p>
+        </div>
+        <div class="contact_input">
+            <input class="con_in" type="text" placeholder="Enter a valid email address">
+            <input class="con_in" type="text" placeholder="Enter your Name">
+            <input class="con_in" type="text" placeholder="Enter your message">
+            <button class="btn">SUBMIT</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer1">
+            <h1 class="footer_h1">Product</h1>
+            <p class="footer_p">Theme Design</p>
+            <p class="footer_p">Plugin Design</p>
+            <p class="footer_p">Wordpress</p>
+            <p class="footer_p">Joomia Template</p>
+            <p class="footer_p">HTML Template</p>
+        </div>
+        <div class="footer1">
+            <h1 class="footer_h1">Useful Link</h1>
+            <p class="footer_p">Blog</p>
+            <p class="footer_p">Pricing</p>
+            <p class="footer_p">Sales</p>
+            <p class="footer_p">Tickets</p>
+            <p class="footer_p">Certifications</p>
+            <p class="footer_p">Customer Service</p>
+        </div>
+        <div class="footer1">
+            <h1 class="footer_h1">Address</h1>
+            <p class="footer_p">127, Westwood Lane</p>
+            <p class="footer_p">DA15 9PS, Sidcup</p>
+            <p class="footer_p">London, UK</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <script>
+        function addShow(){
+            document.querySelector(".nav_collection").classList.toggle("show")
+        }
+    </script>
+</body>
+</html>

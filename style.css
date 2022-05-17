@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* 
+
+    Global CSS
+
+*/
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 
+
+    Main CSS
+
+*/
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    color: #fff;
+}
+.nav_collection{
+    display: flex;
+}
+.nav_item{
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.menu_icon{
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.menu_icon p{
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 3px;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background: url("./image/Мост.jpg")
+    no-repeat center/cover;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+.title_pc{
+    color: #fff;
+    font-size: 10vw;
+}
+.title_mb{
+    display: none;
+}
+.gallery_title{
+    text-align: center;
+    padding: 50px 0;
+    text-transform: uppercase;
+    color: blueviolet;
+    font-size: 50px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery_item{
+    width: 33.3%;
+    height: 400px;
+    overflow: hidden;
+}
+.gallery_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 5s;
+    filter: grayscale(80%);
+}
+.gallery_item:hover img{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+.cards{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: blueviolet;
+}
+.card{
+    width: 23%;
+    height: 300px;
+    background-color:#fff;
+}
+.fa-location-dot{
+    font-size: 70px;
+    padding-top: 20px;
+    padding-left: 130px;
+    color: blueviolet;
+}
+.fa-phone{
+    font-size: 70px;
+    padding-top: 20px;
+    padding-left: 120px;
+    color: blueviolet;
+}
+.fa-fax{
+    font-size: 70px;
+    padding-top: 20px;
+    padding-left: 120px;
+    color: blueviolet;
+}
+.fa-message{
+    font-size: 70px;
+    padding-top: 20px;
+    padding-left: 120px;
+    color: blueviolet;
+}
+.card_h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.card_p{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.contacts{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-color:blueviolet;
+}
+.contact_title{
+    width: 45%;
+    height: 400px;
+}
+.contact_input{
+    width: 45%;
+    height: 400px;
+    display: block;
+}
+.contact_h1{
+    color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+.contact_p{
+    width: 320px;
+    margin-left: 20px;
+    color: #fff;
+}
+.con_in{
+    width: 400px;
+    display: block;
+    margin-top: 60px;
+    color: #fff;
+    margin-left: 20px;
+    padding: 10px;
+    background-color:blueviolet;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+}
+.btn{
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 8px;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(27, 25, 25);
+}
+.footer1{
+    width: 30%;
+    height: 500px;
+    margin-top: 30px;
+}
+.footer_h1{
+    padding: 20px;
+    margin-top: 60px;
+    color: #fff;
+}
+.footer_p{
+    margin-left: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
